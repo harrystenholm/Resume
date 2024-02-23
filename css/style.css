@@ -4,21 +4,32 @@ bold #457b9d
 text #1d3557
 */
 
-body {
-	background-color: #a8dadc;
-	color: #1d3557;
-	font-family: 'Roboto', sans-serif;
+.linkedin {
+	color: #0077B5;
+	
+}
+/* LINK CSS */
+.link {
+  color: black;
+}
+.link:link {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: none;
+}
+.link:visited {
+  text-decoration: none;
+}
+.link:active {
+  text-decoration: none;
 }
 
-nav {
-	background-color: #457b9d;
-	color: #1d3557;
-}
 
 hr {
     border: 0;
     height: 2px;
-    margin:18px 0;
+    margin: 6px 0;
     position:relative;
 	background: linear-gradient(to right, transparent, #457b9d,transparent);
 }
@@ -36,129 +47,6 @@ hr {
   #straightname {
   	display: none;
   }
-}
-
-
-#curvename {
-	margin-top: -45px
-}
-
-.textbox {
-	background-color:#457b9d ;
-}
-
-.list-group-item {
-
-}
-
-.navbuttonborder {
-	border: 1px solid black; 
-	border-radius: 5px; 
-	margin-left: 4px; 
-	margin-right: 4px;
-}
-
-.cards-container {
-  column-count: 2;
-}
-
-.cards-container div {
-   background: floralwhite;
-   height: 50px;
-   margin: 10px 0;
-
-   // to avoid column breaks
-   -webkit-column-break-inside: avoid;
-   page-break-inside: avoid;
-   break-inside: avoid;
-}
-
-.dropdown-style  {
-	background-color: #a8dadc;
-	border-color: #457b9d ;
-}
-
-.dropdown-style:hover *  {
-	background-color: #a8dadc;
-	border-color: #457b9d ;
-}
-
-.btn-style {
-	background-color: #457b9d;
-	color: #ffffff;
-	border-color:  #ffffff; ;
-}
-
-.btn-style:hover {
-	background-color: #a8dadc;
-	color: #001219;
-	border-color:  #001219;
-}
-
-.card-body * {
-	color: #ffffff;
-}
-
-.card-style  {
-	background-color: #457b9d;
-	color: #ffffff;
-	border-color: #a8dadc;
-}
-
-.card-style * {
-	background-color: #457b9d;
-	color: #ffffff;
-	border-color: #a8dadc
-
-}
-
-a.homebutton {
-	color: #001219;
-}
-
-.homebutton {
-	margin: 0px 8px 0px 8px;
-	padding: 0px;
-	
-}
-
-.paddingzero * {
-	padding: 0px;
-}
-
-#navbarsupportedcontent {
-	text-align: center;
-}
-
-#contactme {
-	margin: 8px 0px;
-}
-
-#anicontainer {
-  width: 400px;
-  height: 400px;
-  border: 1px solid black;
-  border-radius: 15px;
-  position: relative;
-  background: #e76f51;
-
-}
-
-#animate {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  background: transparent;
-  display: none;
-}
-
-.hidden{
-	display: none;
-}
-
-.buttonicon:hover {
-	text-decoration: none;
-
 }
 
 @media screen and (max-width: 576px) {
